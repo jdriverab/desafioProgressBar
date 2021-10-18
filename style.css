@@ -1,0 +1,23 @@
+#progressBar{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+#iconLine, #buttonLine{
+    display:flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+#buttonLine{
+    margin-top: 0.5rem;
+}
+
+.square{
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 0.01rem solid black;
+    text-align: center;
+}
